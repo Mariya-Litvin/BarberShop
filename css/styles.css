@@ -1,6 +1,7 @@
 :root {
   --accent-color-one: #ffffff;
   --accent-color-two: #9da4bd;
+  --main-color: #ff6c00;
   --main-color-title: #303030;
   --secondary-color-title: #555555;
 }
@@ -53,6 +54,11 @@ body {
   letter-spacing: 0.1em;
   color: var(--accent-color-one);
 }
+
+.current {
+  color: var(--main-color);
+}
+
 .contact-tel {
   font-weight: 600;
   font-size: 12px;
@@ -151,4 +157,81 @@ body {
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: var(--accent-color-two);
+}
+
+.our-statistic-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--main-color-title);
+}
+
+.our-statistic-top {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--main-color-title);
+}
+
+.our-statistic-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-title);
+}
+
+.our-statistic-numbers {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--main-color-title);
+}
+
+.our-statistic-desc {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--main-color-title);
+}
+
+.our-barbers-top {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--main-color-title);
+}
+
+.our-barbers-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--main-color-title);
+}
+
+.our-barbers-name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-color-title);
+}
+
+.our-barbers-position {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
