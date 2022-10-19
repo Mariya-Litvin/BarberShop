@@ -5,29 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>&#128372;BarberShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav>
         <a href="./index.html">
           <img src="./images/logo.svg" alt="logo" />
         </a>
-        <ul>
-          <li><a href="./index.html">About</a></li>
-          <li><a href="./index.html">Services and prices</a></li>
-          <li><a href="./index.html">Barbers</a></li>
-          <li><a href="./index.html">Contacts</a></li>
+        <ul class="nav-items">
+          <li><a class="link nav-item" href="./index.html">About</a></li>
+          <li><a class="link nav-item" href="./index.html">Services and prices</a></li>
+          <li><a class="link nav-item" href="./index.html">Barbers</a></li>
+          <li><a class="link nav-item" href="./index.html">Contacts</a></li>
         </ul>
       </nav>
-      <a href="tel:+380441111111">+38 044 111 11 11</a>
+      <a class="link contact-tel" href="tel:+380441111111">+38 044 111 11 11</a>
       <button type="button">Online-booking</button>
     </header>
     <main>
-      <section>
+      <section class="hero">
         <div>
           <ul>
             <li>
               <a
+                class="link"
                 href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -36,6 +44,7 @@
             </li>
             <li>
               <a
+                class="link"
                 href="https://www.youtube.com/?gl=UA&hl=ru"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -44,14 +53,14 @@
             </li>
           </ul>
         </div>
-        <p>A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>
+        <p class="hero-subtitle">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-slogan">
           We are experts in trendy men’s haircuts. We work quickly, carefully and with
           style.
         </p>
       </section>
-      <section>
+      <section class="about-us">
         <ul>
           <li>
             <img
@@ -70,13 +79,13 @@
             />
           </li>
         </ul>
-        <p>About</p>
-        <h2>Best Barbershop in your city</h2>
-        <p>
+        <p class="about-us-top">About</p>
+        <h2 class="about-us-title">Best Barbershop in your city</h2>
+        <p class="about-us-subtitle">
           If you want to add more confidence to your image, you should definitely visit
           us.
         </p>
-        <p>
+        <p class="about-us-text">
           We are a team that never stops at what has been achieved and are thirsty for
           changes. And when you fall into the hands of our master, you will never be the
           same again. We are a team that is always "on the same wave" with clients.
@@ -84,10 +93,10 @@
         </p>
         <button type="button">Online-booking</button>
       </section>
-      <section>
-        <p>Spend your time with the best masters</p>
-        <h2>Services and prices</h2>
-        <ul>
+      <section class="prices">
+        <p class="prices-top">Spend your time with the best masters</p>
+        <h2 class="prices-title">Services and prices</h2>
+        <ul class="prices-desc">
           <li>
             <p>Men’s haircut</p>
             <p>from 300 uah.</p>
