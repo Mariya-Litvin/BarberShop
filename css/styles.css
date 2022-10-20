@@ -4,6 +4,7 @@
   --main-color: #ff6c00;
   --main-color-title: #303030;
   --secondary-color-title: #555555;
+  --background-color-main: #191c26;
 }
 
 p,
@@ -41,6 +42,14 @@ img {
 
 body {
   font-family: "Open Sans", sans-serif;
+  background: var(--accent-color-one);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .header {
@@ -70,6 +79,19 @@ body {
 
 .hero {
   background-color: grey;
+}
+
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--main-color-title);
+  /* transform: rotate(-90deg); */
+}
+
+.hero-link.current {
+  color: var(--main-color);
 }
 
 .hero-title {
@@ -234,4 +256,82 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-color);
+}
+
+.portfolio-text-top {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--main-color-title);
+}
+
+.booking {
+  background: var(--background-color-main);
+}
+
+.booking-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--accent-color-one);
+}
+
+.contacts {
+  background: var(--background-color-main);
+}
+
+.contacts-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--accent-color-one);
+}
+
+.contacts-address {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: var(--accent-color-two);
+}
+
+.contacts-tel {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: var(--accent-color-two);
+}
+
+.contacts-email {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  font-style: normal;
+  color: var(--accent-color-two);
+}
+
+.work-hours-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--accent-color-one);
+}
+
+.work-hours {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--accent-color-two);
 }
