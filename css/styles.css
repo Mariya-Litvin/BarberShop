@@ -81,6 +81,20 @@ body {
   background-color: grey;
 }
 
+.btn-booking {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--accent-color-one);
+  border: 1px solid var(--main-color);
+  border-radius: 25px;
+  min-width: 160px;
+  height: 40px;
+}
+
 .hero-link {
   font-weight: 600;
   font-size: 11px;
